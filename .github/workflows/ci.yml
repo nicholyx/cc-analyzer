@@ -468,14 +468,14 @@ jobs:
           R_ACTIONLINT: ${{ needs.actionlint.result }}
           R_YAMLLINT: ${{ needs.yamllint.result }}
           R_SHELLCHECK: ${{ needs.shellcheck.result }}
-          R_WEBTEST: ${{ needs.web-test.result }}
-          R_WEBBUILD: ${{ needs.web-build.result }}
-          R_RUSTFMT: ${{ needs.rust-fmt.result }}
-          R_RUSTCLIPPY: ${{ needs.rust-clippy.result }}
-          R_RUSTCHECK: ${{ needs.rust-check.result }}
-          R_COMMITS: ${{ needs.commit-messages.result }}
+          R_WEB_TEST: ${{ needs.web-test.result }}
+          R_WEB_BUILD: ${{ needs.web-build.result }}
+          R_RUST_FMT: ${{ needs.rust-fmt.result }}
+          R_RUST_CLIPPY: ${{ needs.rust-clippy.result }}
+          R_RUST_CHECK: ${{ needs.rust-check.result }}
+          R_COMMIT_MESSAGES: ${{ needs.commit-messages.result }}
           R_ZIZMOR: ${{ needs.zizmor.result }}
-          R_LINTSELFTEST: ${{ needs.lint-selftest.result }}
+          R_LINT_SELFTEST: ${{ needs.lint-selftest.result }}
         run: |
           #!/usr/bin/env bash
           set -euo pipefail
