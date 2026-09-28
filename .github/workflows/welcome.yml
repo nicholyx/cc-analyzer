@@ -46,7 +46,7 @@ jobs:
             我已经收到通知，会尽快开始 review。在你等待的时候，有几件事可以顺手确认一下：
 
             - [ ] 本地跑过 `./scripts/lint.sh`（工作流与脚本改动）以及 CONTRIBUTING.md 里的构建检查（代码改动）
-            - [ ] 提交信息遵循了[约定式提交规范](https://github.com/liang-zhenxiang/cc-analyzer/blob/main/CONTRIBUTING.md#提交信息规范)
+            - [ ] 提交信息遵循了[约定式提交规范](https://github.com/liang-zhenxiang/cc-analyzer/blob/main/CONTRIBUTING.zh-CN.md#提交信息规范)
             - [ ] PR 描述里说明了**为什么**要做这个改动
 
             CI 会自动跑起来。如果红了不用慌，点击失败的检查项就能看到具体原因；实在看不懂就把日志贴到评论里，我们一起看。
